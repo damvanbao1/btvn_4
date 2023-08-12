@@ -11,7 +11,10 @@
     margin: auto;
    
 }
-
+.item a{
+    margin-left: 30px;
+    text-decoration: none;
+}
 .active_1{
   
     width: 300px;
@@ -51,12 +54,13 @@
     height: 200px;
 }
 .title {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     width: 90%;
     height: 60px;
     margin-left: 20px;
     margin-right: 20px;
+    color: black;
 }
 .summary{
     width: 100%;
@@ -67,6 +71,9 @@
     width: 30%;
     height: 40px;
     margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
 }
 .quality{
     width: 70%;
